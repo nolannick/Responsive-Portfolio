@@ -1,0 +1,190 @@
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index: -1;
+  }
+#bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+main {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #777777;
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+h1 {
+    color: #4AAAA5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#headerBox {
+   
+    overflow: hidden;
+    margin: 0 20px;
+    background-color: #cccccc;
+    height: 2px;
+}
+
+div {
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.topNav {
+    border-bottom: 1px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.topNavContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#primaryInlineImage {
+    height: 300px;
+    Float: left;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+    line-height: 1.8;
+}
+
+#MyName {
+    float: left;
+    background-color: #4AAAA5;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.rightNav {
+    Width: 60px;
+    Float: right;
+    padding: 10px;
+    color: #777777;
+    margin: 18px 10px; 
+    text-align: center;
+}
+
+#Portfolio {
+    border-right: 2px solid #cccccc;
+    border-left: 2px solid #cccccc;
+    padding: 10px 30px;
+}
+
+.footerBar {
+    color: #cccccc;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#footerGreenBar {
+    overflow: hidden;
+    background-color: #4AAAA5;
+    height: 6px;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 50px;
+    z-index: 1
+}
+
+#footerGreyBar {
+    overflow: hidden;
+    background-color: #666666;
+    height: 50px;
+}
+
+form {
+    margin: 20px;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin: 10px 20px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+  .submitButton {
+    background-color: #4AAAA5;
+    border: none;
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  #messageField {
+    height: 150px;
+  }
+
+  .portfolioImageBlock {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      border: 1px solid #cccccc;
+      float: left;
+      overflow: hidden;
+      position: relative;
+  }
+
+  .imgDesc {
+      padding: 15px; 
+      position: absolute;
+      bottom: 20px;
+      z-index: 1;
+      background-color: #4AAAA5;
+      color: white;
+      width: 200px;
+      font-size: 16px;
+  }
+
+

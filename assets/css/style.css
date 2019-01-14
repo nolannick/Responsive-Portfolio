@@ -188,3 +188,43 @@ input[type=text] {
   }
 
 
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 786px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+    main {
+        width: calc(100% - 20px);
+        margin: 10px;
+        overflow: auto;
+        margin-bottom: 70px;
+        font-size: 14px;
+    }
+
+    .topNavContainer {
+        width: 100%;
+    }
+    
+    #MyName {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .rightNavContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #primaryInlineImage {
+        width: 90%;
+        height: auto;
+        padding: 0px;
+        margin: 20px;   
+    }
+}
